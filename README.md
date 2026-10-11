@@ -41,11 +41,9 @@ Toàn bộ quá trình phân loại được thực hiện dựa trên các đ�
 
 ## 📊 Bộ dữ liệu (Dataset)
 
-- **Bộ dữ liệu chính:** `CIC-Darknet2020` kết hợp `ISCX VPN-nonVPN`
-- **Nguồn chính thức UNB:** 
-  - [UNB CIC Darknet2020 Dataset](https://www.unb.ca/cic/datasets/darknet2020.html)
-  - [UNB ISCX VPN-nonVPN Dataset](https://www.unb.ca/cic/datasets/vpn.html)
-- **Nguồn tải nhanh Kaggle:** [Kaggle CIC-Darknet2020 Dataset (file Darknet.csv)](https://www.kaggle.com/datasets/ahmedabdelmoniem/darknet2020)
+- **Bộ dữ liệu chính thức:** `CIC-Darknet2020`
+- **Nguồn thu thập:** [Canadian Institute for Cybersecurity (CIC) — University of New Brunswick (UNB)](https://www.unb.ca/cic/datasets/darknet2020.html)
+- **Tập tin sử dụng:** `Darknet.csv` (chứa các thuộc tính thống kê luồng mạng cho các lưu lượng Non-Tor, VPN và Tor).
 
 ---
 
@@ -53,5 +51,5 @@ Toàn bộ quá trình phân loại được thực hiện dựa trên các đ�
 
 1. Tải file `NT120_DoAn_Nhom16_PhanLoaiDarknetVPN.ipynb` về máy.
 2. Mở [Google Colab](https://colab.research.google.com) và tải file notebook lên.
-3. Tải file `Darknet.csv` lên thư mục làm việc của Google Colab.
+3. Tải file `Darknet.csv` (thu thập từ nguồn CIC-Darknet2020 của UNB) lên thư mục làm việc của Google Colab.
 4. Chọn menu **Runtime → Run all** để thực thi toàn bộ pipeline từ nạp dữ liệu, tiền xử lý, huấn luyện 3 mô hình cho đến xuất 2 ma trận nhầm lẫn và demo dự đoán kép.
